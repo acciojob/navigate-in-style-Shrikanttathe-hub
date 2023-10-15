@@ -1,7 +1,18 @@
-/*  your css code here. If applicable */
-.nav-bar{
-	background-color:#D3D3D3;
-	padding:10px;
-	display:inline;
-	margin-right:1rem;
+.navbar {
+    background-color: #D3D3D3;  /* Set the background color */
+    padding: 10px;  /* Add 10px of padding */
+}
+
+.nav-list {
+    list-style: none;  /* Remove list bullets */
+}
+
+.nav-list li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 1rem; /* Add a margin between list items */
+}
+
+.nav-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color to black */
 }
