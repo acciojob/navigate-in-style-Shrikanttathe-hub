@@ -1,3 +1,7 @@
+.container{
+	background-color:"rgb(211, 211, 211)";
+	padding: 10px;
+}
 .navbar {
     background-color: #D3D3D3;  /* Set the background color */
     padding: 10px;  /* Add 10px of padding */
@@ -7,11 +11,13 @@
 	margin-right: 1rem;
 }
 .nav-list {
+	 display: flex;
+	justify-content:space-between;
     list-style: none;  /* Remove list bullets */
 }
 
 .nav-list li{
-    display: flex; /* Display list items horizontally */
+   /* Display list items horizontally */
     margin-right: 1rem; /* Add a margin between list items */
 }
 
