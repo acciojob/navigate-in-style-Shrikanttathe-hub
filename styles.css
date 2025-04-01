@@ -2,7 +2,10 @@
     background-color: #D3D3D3;  /* Set the background color */
     padding: 10px;  /* Add 10px of padding */
 }
-
+.nav-list li{
+	display: inline;
+	margin-right: 1rem;
+}
 .nav-list {
     list-style: none;  /* Remove list bullets */
 }
