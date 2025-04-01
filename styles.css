@@ -10,8 +10,8 @@
     list-style: none;  /* Remove list bullets */
 }
 
-.nav-list li {
-    display: inline; /* Display list items horizontally */
+.nav-list li{
+    display: flex; /* Display list items horizontally */
     margin-right: 1rem; /* Add a margin between list items */
 }
 
